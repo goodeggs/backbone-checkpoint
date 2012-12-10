@@ -1,0 +1,24 @@
+{
+  "name": "backbone-checkpoint",
+  "version": "0.0.0",
+  "description": "Mark a state in browser history and pop back to it later",
+  "main": "backbone-checkpoint.js",
+  "repository": "",
+  "keywords": [
+    "backbone",
+    "history",
+    "checkpoint",
+    "stash"
+  ],
+  "devDependencies": {
+    "backbone": "*",
+    "expect.js": "*",
+    "zepto": "*",
+    "mocha": "*",
+    "underscore": "*"
+  },
+  "scripts": {
+    "test": "open test/index.html"
+  },
+  "contributors": ["Adam Hull <adam@hmlad.com>"]
+}

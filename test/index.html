@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Backbone-Checkpoint Tests</title>
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="../node_modules/expect.js/expect.js"></script>
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../node_modules/underscore/underscore.js"></script>
+  <script src="../node_modules/zepto/zepto.min.js"></script>
+  <script src="../node_modules/backbone/backbone.js"></script>
+  <script src="../backbone-checkpoint.js"></script>
+  <script>mocha.setup({ui: 'bdd', globals: ['_zid']})</script>
+  <script src="checkpoint.js"></script>
+  <script>
+    mocha.run();
+  </script>
+</body>
+</html>
